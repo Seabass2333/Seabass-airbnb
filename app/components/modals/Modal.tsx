@@ -86,16 +86,15 @@ const Modal: React.FC<ModalProps> = ({
       >
         <div
           className='
-          relative 
-          w-full
-          md:w-4/6
-          lg:w-3/6
-          xl:w-2/5
-          my-6
-          mx-auto 
-          h-full 
-          lg:h-auto
-          md:h-auto
+            relative 
+            w-full
+            md:w-4/6
+            lg:w-3/6
+            xl:w-2/5
+            mx-auto 
+            h-full 
+            lg:h-auto
+            md:h-auto
           '
         >
           {/*content*/}
@@ -110,32 +109,32 @@ const Modal: React.FC<ModalProps> = ({
           >
             <div
               className='
-              translate
-              h-full
-              lg:h-auto
-              md:h-auto
-              border-0 
-              rounded-lg 
-              shadow-lg 
-              relative 
-              flex 
-              flex-col 
-              w-full 
-              bg-white 
-              outline-none 
-              focus:outline-none
-            '
+                translate
+                h-full
+                lg:h-auto
+                md:h-auto
+                border-0 
+                rounded-lg 
+                shadow-lg 
+                relative 
+                flex 
+                flex-col 
+                w-full 
+                bg-white 
+                outline-none 
+                focus:outline-none
+              '
             >
               {/*header*/}
               <div
                 className='
-                flex 
-                items-center 
-                p-6
-                rounded-t
-                justify-center
-                relative
-                border-b-[1px]
+                  flex 
+                  items-center 
+                  p-6
+                  rounded-t
+                  justify-center
+                  relative
+                  border-b-[1px]
                 '
               >
                 <button
