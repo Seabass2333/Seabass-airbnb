@@ -63,7 +63,7 @@ const LoginModal = () => {
     <div className='flex flex-col gap-4'>
       <Heading
         title='Welcome back'
-        subtitle='Login to your account!'
+        subTitle='Login to your account!'
       />
       <Input
         id='email'
